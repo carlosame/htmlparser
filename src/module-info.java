@@ -29,11 +29,9 @@ module nu.validator.htmlparser {
     exports nu.validator.htmlparser.io;
     exports nu.validator.htmlparser.rewindable;
     exports nu.validator.htmlparser.sax;
-    exports nu.validator.htmlparser.xom;
     exports nu.validator.saxtree;
 
     requires transitive java.xml;
-    requires static nu.xom;
     requires static com.ibm.icu;
     requires static jchardet;
 }
